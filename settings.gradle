@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url = uri("https://dl.bintray.com/kotlin/kotlin-eap") }
+    }
+}
+rootProject.name = "Multi-module-drawer-menu-navigation"
+include ':app'
+include ':feature_a'
+include ':feature_b'
+include ':feature_c'

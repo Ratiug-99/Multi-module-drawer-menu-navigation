@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_b"
+    app:startDestination="@id/BFragment">
+
+    <fragment
+        android:id="@+id/BFragment"
+        android:name="com.ratiug.feature_b.BFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" />
+</navigation>
